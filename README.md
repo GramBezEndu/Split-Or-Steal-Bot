@@ -33,6 +33,6 @@ You can always come back to "normal" version of the game by verifying game files
 
 <b>Bans:</b>
 
-There's a high chance to get banned with this bot (spamming same message and skipping preparation time).
+There's a high chance to get banned with this bot (spamming same message and skipping preparation time) - disabling those features would decrease ban chance. I think getting reported is the only way of getting banned - I don't think this game's "Anti-Bot" is worth much.
 
 ![Missing image :(](https://i.imgur.com/IPd47Xr.png)
