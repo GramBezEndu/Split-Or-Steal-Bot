@@ -30,3 +30,9 @@ Currently always splitting.
 Copy "Assembly-CSharp.dll" to ".\SteamLibrary\steamapps\common\Split or Steal\Split Or Steal_Data\Managed\".
 
 You can always come back to "normal" version of the game by verifying game files on Steam or replacing this .dll file you just replaced.
+
+<b>Bans:</b>
+
+There's a high chance to get banned with this bot (spamming same message and skipping preparation time).
+
+![Missing image :(](https://i.imgur.com/IPd47Xr.png)
