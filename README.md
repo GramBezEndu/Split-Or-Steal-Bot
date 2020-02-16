@@ -6,11 +6,9 @@ Currently always splitting.
 
 <h2>Videos:</h2>
 
-<b>Current version bot session:</b>
+<b>Earlier versions:</b>
 
 [![Missing video :(](https://img.youtube.com/vi/Hpewq7dg4d8/0.jpg)](https://www.youtube.com/watch?v=Hpewq7dg4d8)
-
-<b>Earlier version:</b>
 
 [![Missing video :(](https://img.youtube.com/vi/UsgJe4c5xo0/0.jpg)](https://www.youtube.com/watch?v=UsgJe4c5xo0)
 
