@@ -1,0 +1,19 @@
+Assembly changes:
+1. GameController:
+- made some properties and methods public
+- Add SkinChanger UnityEvent, which is invoked in startGame() method
+- Add EarlySplit UnityEvent, which is invoked in updateTimer() method
+- Add OnFinishEndScreen UnityEvent, which is invoked in finishEndScreen() method
+2. ChatNetworkController
+- Add invitationMessageSent bool, which is set to false in init
+- Add SendInvitationMessage UnityEvent, which is invoked in FixedUpdate()
+- made some properties and methods public
+3. WinController
+- Add OnStartWin UnityEvent, which is invoked in startWin()
+4. QueueController
+- Add AutoAcceptQueueInitialized bool, which is set to false in resetQueueStatus
+- Add AutoAcceptQueue UnityEvent, which is invoked in FixedUpdate()
+- Add AutoJoinQueueInitialized bool, which is set to false in resetQueueStatus
+- Add AutoJoinQueueTime float, which is set to 6 in resetQueueStatus
+- Add AutoJoinQueue UnityEvent, which is invoked in FixedUpdate();
+- timeToAcceptInvite changed from private to public
