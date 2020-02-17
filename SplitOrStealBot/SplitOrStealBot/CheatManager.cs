@@ -30,9 +30,6 @@ namespace SplitOrStealBot
         {
             "Hi. Just split.",
             "Hello! Please split.",
-            "I'm splitting",
-            "Split",
-            "Split :)"
         };
         public bool[] msgClick;
 
@@ -175,10 +172,20 @@ namespace SplitOrStealBot
             if (features[7] is SkinChanger s)
                 s.SelectedCharacter = selectedCharacter;
 
-            for(int i=0;i<msgClick.Length;i++)
+            //Add message
+            if (msgClick[0] == true)
+            {
+                msg.Add("Hello!");
+                msgClick[0] = false;
+            }
+            //Remove message
+            for(int i=1;i<msgClick.Length;i++)
             {
                 if (msgClick[i] == true)
+                {
                     msg.RemoveAt(i);
+                    msgClick[i] = false;
+                }
             }
         }
 
@@ -232,7 +239,7 @@ namespace SplitOrStealBot
                 msg[i] = GUILayout.TextField(msg[i]);
                 if (i == 0)
                 {
-                    //GUILayout.Button("+", GUILayout.MaxWidth(25));
+                    msgClick[0] = GUILayout.Button("+", GUILayout.MaxWidth(25));
                 }
                 else
                 {
@@ -249,7 +256,7 @@ namespace SplitOrStealBot
             displaySkinList = GUILayout.Toggle(displaySkinList, "Display skin list");
             if (displaySkinList)
             {
-                scrollPosition = GUILayout.BeginScrollView(scrollPosition);
+                scrollPosition = GUILayout.BeginScrollView(scrollPosition, GUILayout.MinHeight(140));
                 for (int i = 0; i < Enum.GetNames(typeof(Characters)).Length; i++)
                 {
                     this[i] = GUILayout.Toggle(this[i], String.Format("{0} [{1}]",

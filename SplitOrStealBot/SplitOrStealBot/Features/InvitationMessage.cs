@@ -13,9 +13,6 @@ namespace SplitOrStealBot.Features
         { 
             "Hi. Just split.", 
             "Hello! Please split.", 
-            "I'm splitting",
-            "Split",
-            "Split :)"
         };
         public override void DrawMenu()
         {

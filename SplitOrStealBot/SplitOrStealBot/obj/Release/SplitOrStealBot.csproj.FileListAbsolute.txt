@@ -173,4 +173,3 @@ C:\Users\user\Desktop\Split or Steal Stuff\1.5.1 user config\SplitOrStealBot\Spl
 C:\Users\user\Desktop\Split or Steal Stuff\1.5.1 user config\SplitOrStealBot\SplitOrStealBot\obj\Release\SplitOrStealBot.csproj.CopyComplete
 C:\Users\user\Desktop\Split or Steal Stuff\1.5.1 user config\SplitOrStealBot\SplitOrStealBot\obj\Release\SplitOrStealBot.dll
 C:\Users\user\Desktop\Split or Steal Stuff\1.5.1 user config\SplitOrStealBot\SplitOrStealBot\obj\Release\SplitOrStealBot.pdb
-C:\Users\user\Desktop\Split or Steal Stuff\1.5.1 user config\SplitOrStealBot\SplitOrStealBot\obj\Release\SplitOrStealBot.csprojAssemblyReference.cache
