@@ -6,11 +6,7 @@ Currently always splitting.
 
 <h2>Videos:</h2>
 
-<b>Earlier versions:</b>
-
-[![Missing video :(](https://img.youtube.com/vi/Hpewq7dg4d8/0.jpg)](https://www.youtube.com/watch?v=Hpewq7dg4d8)
-
-[![Missing video :(](https://img.youtube.com/vi/UsgJe4c5xo0/0.jpg)](https://www.youtube.com/watch?v=UsgJe4c5xo0)
+[![Missing video :(](https://img.youtube.com/vi/YD67hpXycmY/0.jpg)](https://www.youtube.com/watch?v=YD67hpXycmY)
 
 <b>Features:</b>
 - early auto split (before 10 seconds preparation time)
