@@ -11,7 +11,7 @@ namespace SplitOrStealBot
 {
     public class CheatManager : MonoBehaviour
     {
-        public List<IFeature> features = new List<IFeature>();
+        public List<Feature> features = new List<Feature>();
         //Window
         public Rect WindowRect = new Rect(10, 10, 200, 40);
         public bool ShowOptions = false;
@@ -22,6 +22,9 @@ namespace SplitOrStealBot
         public bool autoCashOutTier10 = false;
         public bool autoCloseFailedToAccept = false;
         public bool autoEarlySplit = false;
+
+        public bool quit = false;
+        public int quitAfterTimeInHours = 1;
 
         //public bool autoEarlyLockIn = false;
 
@@ -90,6 +93,7 @@ namespace SplitOrStealBot
             features.Add(new EarlySplit());
             features.Add(new InvitationMessage());
             features.Add(new SkinChanger(selectedCharacter));
+            features.Add(new Quit());
         }
 
         //private void JoinQueue()
@@ -157,6 +161,8 @@ namespace SplitOrStealBot
 
         public void Update()
         {
+            foreach (var feature in features)
+                feature.Update();
             features[0].Enabled = autoBackToMenu;
             features[1].Enabled = autoAcceptLobby;
             features[2].Enabled = autoSearchLobby;
@@ -219,6 +225,7 @@ namespace SplitOrStealBot
                 autoEarlySplit = GUILayout.Toggle(autoEarlySplit, "Early split");
                 DrawChatMessages();
                 DrawSkins();
+                DrawAutoQuit();
 
             }
             GUILayout.EndVertical();
@@ -226,6 +233,26 @@ namespace SplitOrStealBot
             // This will make the window be resizable by the top
             // title bar - no matter how wide it gets.
             GUI.DragWindow(new Rect(0, 0, 10000, 20));
+        }
+
+        private void DrawAutoQuit()
+        {
+            GUILayout.Label("Auto quit");
+            GUILayout.BeginHorizontal();
+            quit = GUILayout.Toggle(quit, "Quit after: ");
+            string result = GUILayout.TextField(quitAfterTimeInHours.ToString());
+            //Could not parse
+            if(!int.TryParse(result, out quitAfterTimeInHours))
+            {
+                result = quitAfterTimeInHours.ToString();
+            }
+            GUILayout.Label("hour(s)");
+            GUILayout.EndHorizontal();
+            var timeRunning = TimeSpan.FromSeconds(Globals.TimeRunning);
+            GUILayout.Label(String.Format("Running for: {0:D2}h {1:D2}m {2:D2}s",
+                timeRunning.Hours,
+                timeRunning.Minutes,
+                timeRunning.Seconds));
         }
 
         private void DrawChatMessages()

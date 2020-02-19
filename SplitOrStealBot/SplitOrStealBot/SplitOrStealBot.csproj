@@ -270,6 +270,7 @@
     <Compile Include="Features\Feature.cs" />
     <Compile Include="Features\IFeature.cs" />
     <Compile Include="Features\InvitationMessage.cs" />
+    <Compile Include="Features\Quit.cs" />
     <Compile Include="Features\ReturnToMainMenu.cs" />
     <Compile Include="Features\SearchLobby.cs" />
     <Compile Include="Features\SkinChanger.cs" />

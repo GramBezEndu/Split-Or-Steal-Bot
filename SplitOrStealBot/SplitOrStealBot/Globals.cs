@@ -16,5 +16,6 @@ namespace SplitOrStealBot
         public static ChatNetworkController ChatNetworkController;
         public static QueueController QueueController;
         public static MainScreen MainScreen;
+        public static float TimeRunning = 0f;
     }
 }
