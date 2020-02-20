@@ -1,12 +1,14 @@
 # Split Or Steal Bot
 
-<h2>Status:</h2>
-
-Project closed. I'm not planning to make any updates (unless I change my mind). If you want to make it undetected, then there's a lot of work to do.
+<h2>Description:</h2>
 
 Fast bot for "Split or Steal" game. The game doesn't need to be on foreground window.
 Tested and created on <b>1.5.1.</b> version of the game.
 Currently always splitting.
+
+<h2>Status:</h2>
+
+Project closed. I'm not planning to make any updates (unless I change my mind). If you want to make it undetected, then there's a lot of work to do.
 
 <h2>Videos:</h2>
 
