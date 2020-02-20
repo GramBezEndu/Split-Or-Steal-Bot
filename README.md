@@ -1,5 +1,9 @@
 # Split Or Steal Bot
 
+<h2>Status:</h2>
+
+Project closed. I'm not planning to make any updates (unless I change my mind). If you want to make it undetected, then there's a lot of work to do.
+
 Fast bot for "Split or Steal" game. The game doesn't need to be on foreground window.
 Tested and created on <b>1.5.1.</b> version of the game.
 Currently always splitting.
@@ -18,15 +22,14 @@ Currently always splitting.
 - auto message
 - auto cash out at tier 10
 - auto rejoin queue if someone did not accept
+- auto quit game and bot after set hours
 
 <b>Installation:</b>
 
-Copy "Assembly-CSharp.dll" to ".\SteamLibrary\steamapps\common\Split or Steal\Split Or Steal_Data\Managed\".
-
-You can always come back to "normal" version of the game by verifying game files on Steam or replacing this .dll file you just replaced.
+Installation instructions are located in .zip file (visit releases to download).
 
 <b>Bans:</b>
 
-There's a high chance to get banned with this bot (spamming same message and skipping preparation time) - disabling those features would decrease ban chance. I think getting reported is the only way of getting banned - I don't think this game's "Anti-Bot" is worth much.
+There's a really high chance to get banned with this bot.
 
 ![Missing image :(](https://i.imgur.com/IPd47Xr.png)
