@@ -3,12 +3,12 @@
 <h2>Description:</h2>
 
 Fast bot for "Split or Steal" game. The game doesn't need to be on foreground window.
-Tested and created on <b>1.5.1.</b> version of the game.
+Tested and created on <b>1.5.1</b> version of the game.
 Currently always splitting.
 
-<h2>Status:</h2>
+<h2>Status: Project closed</h2>
 
-Project closed. I'm not planning to make any updates (unless I change my mind). If you want to make it undetected, then there's a lot of work to do.
+Nobody plays the game anymore. The cheat will also not work without changes due to multiple game updates.
 
 <h2>Videos:</h2>
 
@@ -29,9 +29,3 @@ Project closed. I'm not planning to make any updates (unless I change my mind). 
 <b>Installation:</b>
 
 Installation instructions are located in .zip file (visit releases to download).
-
-<b>Bans:</b>
-
-There's a really high chance to get banned with this bot.
-
-![Missing image :(](https://i.imgur.com/IPd47Xr.png)
